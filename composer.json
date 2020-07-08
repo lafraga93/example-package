@@ -1,0 +1,21 @@
+{
+    "name": "lafraga93/example-package",
+    "description": "A PHP example package",
+    "type": "library",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Gustavo Fraga",
+            "email": "gustavolafraga@gmail.com"
+        }
+    ],
+    "require": {
+        "php":">7.3"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "lafraga93\\": "src/"
+        }
+    }
+}
